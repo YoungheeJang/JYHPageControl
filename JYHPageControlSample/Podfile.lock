@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   JYHPageControl:
-    :commit: 4dce53bcdedcd60659e4bb38807552aa7c985b08
+    :commit: 688906bf697547698d27f652f67b6cf79f88eccf
     :git: https://github.com/YoungheeJang/JYHPageControl.git
 
 SPEC CHECKSUMS:
-  JYHPageControl: 4ddb4e01bfe9a20daf088dd2f6a547a85d69da72
+  JYHPageControl: a386185840171875095b3a9720eda15a6b8ce6b4
 
 PODFILE CHECKSUM: e1d0e8547dae8295492a3edad350837659ef7f13
 

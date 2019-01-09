@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A2E529121E58AB700C74E88 /* JYHPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E528F21E58AB700C74E88 /* JYHPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57EFCD51FFD51E70B546AEAD /* Pods_JYHPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */; };
-		7E10823B21E5BE9F00273214 /* JYHPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10823A21E5BE9F00273214 /* JYHPageControl.swift */; };
+		7E10823B21E5BE9F00273214 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10823A21E5BE9F00273214 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		3A2E529021E58AB700C74E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BFCA18F645B51F89A2BBA2 /* Pods-JYHPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.release.xcconfig"; sourceTree = "<group>"; };
 		7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYHPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E10823A21E5BE9F00273214 /* JYHPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYHPageControl.swift; sourceTree = "<group>"; };
+		7E10823A21E5BE9F00273214 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		D9D9A3C41795DD0ECA5C0F57 /* Pods-JYHPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				3A2E528F21E58AB700C74E88 /* JYHPageControl.h */,
-				7E10823A21E5BE9F00273214 /* JYHPageControl.swift */,
+				7E10823A21E5BE9F00273214 /* PageControl.swift */,
 				3A2E529021E58AB700C74E88 /* Info.plist */,
 			);
 			path = JYHPageControl;
@@ -184,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E10823B21E5BE9F00273214 /* JYHPageControl.swift in Sources */,
+				7E10823B21E5BE9F00273214 /* PageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
