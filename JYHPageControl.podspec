@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JYHPageControl"
   s.version      = "1.0.0"
-  s.summary      = "A short description of JYHPageControl."4
+  s.summary      = "A short description of JYHPageControl."
 
   s.description  = "설명추가."
 
