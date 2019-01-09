@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A2E529121E58AB700C74E88 /* JYHPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E528F21E58AB700C74E88 /* JYHPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57EFCD51FFD51E70B546AEAD /* Pods_JYHPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */; };
-		7E10823D21E5C4B000273214 /* TestPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10823C21E5C4B000273214 /* TestPageControl.swift */; };
+		7E10823E21E5D97200273214 /* TestPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10823C21E5C4B000273214 /* TestPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E10823D21E5C4B000273214 /* TestPageControl.swift in Sources */,
+				7E10823E21E5D97200273214 /* TestPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

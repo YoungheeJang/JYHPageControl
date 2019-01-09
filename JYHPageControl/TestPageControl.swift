@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestPageControl: UIPageControl {
+open class TestPageControl: UIPageControl {
     func text() {
         print("xxxX")
     }
