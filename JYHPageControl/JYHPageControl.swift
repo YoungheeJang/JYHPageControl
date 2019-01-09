@@ -1,5 +1,5 @@
 //
-//  TestPageControl.swift
+//  JYHPageControl.swift
 //  JYHPageControl
 //
 //  Created by YoungheeJang on 09/01/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class TestPageControl: UIPageControl {
+open class JYHPageControl: UIPageControl {
     func text() {
         print("xxxX")
     }
