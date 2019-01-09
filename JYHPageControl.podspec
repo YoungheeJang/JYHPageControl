@@ -16,15 +16,14 @@ Pod::Spec.new do |s|
   # s.social_media_url   = ""
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  # s.platform     = :ios, "10.0"
+  s.platform     = :ios, "10.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/YoungheeJang/JYHPageControl.git" , :branch => "devlop" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
+  s.source_files  = "JYHPageControl", "JYHPageControl/**/*.{swift}"
+  # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
