@@ -1,0 +1,22 @@
+PODS:
+  - JYHPageControl (1.0.0)
+
+DEPENDENCIES:
+  - JYHPageControl (from `https://github.com/YoungheeJang/JYHPageControl.git`, branch `develop`)
+
+EXTERNAL SOURCES:
+  JYHPageControl:
+    :branch: develop
+    :git: https://github.com/YoungheeJang/JYHPageControl.git
+
+CHECKOUT OPTIONS:
+  JYHPageControl:
+    :commit: 688906bf697547698d27f652f67b6cf79f88eccf
+    :git: https://github.com/YoungheeJang/JYHPageControl.git
+
+SPEC CHECKSUMS:
+  JYHPageControl: a386185840171875095b3a9720eda15a6b8ce6b4
+
+PODFILE CHECKSUM: e1d0e8547dae8295492a3edad350837659ef7f13
+
+COCOAPODS: 1.5.3
