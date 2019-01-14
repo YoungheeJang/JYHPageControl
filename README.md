@@ -1,10 +1,14 @@
 # JYHPageControl
 
-Foobar is a Python library for dealing with word pluralization.
+**JYHPageControl** looks like **UIPageControl**. If You will use this **JYHPageControl**, It is very easy to make pageControl.
 
 ## Overview
 
 <img src="images/sample-01.gif" width="600" height="1067">
+<img src="images/sample-02.gif" width="600" height="150">
+<img src="images/sample-03.gif" width="600" height="150">
+<img src="images/sample-04.gif" width="600" height="150">
+
 
 ## Installation
 
@@ -37,10 +41,11 @@ $ pod install
 ```
 
 ## Usage
-
 ```Swift
 import JYHPageControl
+```
 
+```Swift
 var pageControl: JYHPageControl?
 pageControl = JYHPageControl(currentDotSize: CGSize(width: 20, height: 12),
                              currentDotBackgroundColor: UIColor.red,
@@ -58,9 +63,12 @@ self.view.addSubview(pageControl!)
 ```
 
 ### More usage
+
+<img src="images/sample-05.gif" width="600" height="150">
+
 ```Swift
-pageControl?.useHeaderImageView(size: CGSize(width: 30, height: 30), image: UIImage(named: "sampleHeader")!)
-pageControl?.useFooterImageView(size: CGSize(width: 30, height: 30), image: UIImage(named: "sampleFooter")!)
+pageControl?.useHeaderImageView(size: CGSize(width: 15, height: 15), image: UIImage(named: "sampleHeader")!)
+pageControl?.useFooterImageView(size: CGSize(width: 15, height: 15), image: UIImage(named: "sampleFooter")!)
 ```
 
 
