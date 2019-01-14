@@ -33,8 +33,8 @@ class ViewController: UIViewController {
     scrollView?.translatesAutoresizingMaskIntoConstraints = false
     scrollView?.delegate = self
     
-    pageControl = JYHPageControl(currentDotSize: CGSize(width: 20, height: 12),
-                                 currentDotBackgroundColor: UIColor.red,
+    pageControl = JYHPageControl(currentDotSize: CGSize(width: 12, height: 6),
+                                 currentDotBackgroundColor: UIColor.white,
                                  currentDotBorderColor: UIColor.lightGray,
                                  currentDotAlpha: 1.0,
                                  defaultDotSize: CGSize(width: 6, height: 6),
@@ -46,8 +46,8 @@ class ViewController: UIViewController {
                                  numberOfPages: 7,
                                  currentPage: 0)
     
-    pageControl?.useHeaderImageView(size: CGSize(width: 30, height: 30), image: UIImage(named: "sampleHeader")!)
-    pageControl?.useFooterImageView(size: CGSize(width: 30, height: 30), image: UIImage(named: "sampleFooter")!)
+    pageControl?.useHeaderImageView(size: CGSize(width: 15, height: 15), image: UIImage(named: "sampleHeader")!)
+    pageControl?.useFooterImageView(size: CGSize(width: 15, height: 15), image: UIImage(named: "sampleFooter")!)
     pageControl?.translatesAutoresizingMaskIntoConstraints = false
     
     sampleImage01.contentMode = .scaleAspectFill
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UIScrollViewDelegate {
   
-  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+  func scrollViewDidScroll(_ scrollView: UIScrollView) {
     let pageNumber = round(scrollView.contentOffset.x / scrollView.frame.size.width)
     pageControl!.currentPage = Int(pageNumber)
   }

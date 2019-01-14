@@ -2,21 +2,15 @@ PODS:
   - JYHPageControl (1.0.0)
 
 DEPENDENCIES:
-  - JYHPageControl (from `https://github.com/YoungheeJang/JYHPageControl.git`, branch `develop`)
+  - JYHPageControl
 
-EXTERNAL SOURCES:
-  JYHPageControl:
-    :branch: develop
-    :git: https://github.com/YoungheeJang/JYHPageControl.git
-
-CHECKOUT OPTIONS:
-  JYHPageControl:
-    :commit: 688906bf697547698d27f652f67b6cf79f88eccf
-    :git: https://github.com/YoungheeJang/JYHPageControl.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JYHPageControl
 
 SPEC CHECKSUMS:
-  JYHPageControl: a386185840171875095b3a9720eda15a6b8ce6b4
+  JYHPageControl: 2b227710154db5b2a32d570ab96919815763f275
 
-PODFILE CHECKSUM: e1d0e8547dae8295492a3edad350837659ef7f13
+PODFILE CHECKSUM: 66714404d4565a0605b5ab610914edfada6a9c9b
 
 COCOAPODS: 1.5.3

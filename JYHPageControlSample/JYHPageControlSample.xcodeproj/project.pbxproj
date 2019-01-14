@@ -11,7 +11,7 @@
 		3A2E52A621E58EDF00C74E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E52A521E58EDF00C74E88 /* ViewController.swift */; };
 		3A2E52A921E58EDF00C74E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E52A721E58EDF00C74E88 /* Main.storyboard */; };
 		3A2E52AB21E58EE000C74E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E52AA21E58EE000C74E88 /* Assets.xcassets */; };
-		3A2E52AE21E58EE000C74E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E52AC21E58EE000C74E88 /* LaunchScreen.storyboard */; };
+		7EB0D4A521EC654C00E1AA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0D4A421EC654C00E1AA60 /* LaunchScreen.storyboard */; };
 		EE47CADE99D6CA1903FB23EE /* Pods_JYHPageControlSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BEFCE6A05361974918053 /* Pods_JYHPageControlSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +21,8 @@
 		3A2E52A521E58EDF00C74E88 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		3A2E52A821E58EDF00C74E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A2E52AA21E58EE000C74E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A2E52AD21E58EE000C74E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2E52AF21E58EE000C74E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB0D4A421EC654C00E1AA60 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA937BF2E44B895083D9FC70 /* Pods-JYHPageControlSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControlSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControlSample/Pods-JYHPageControlSample.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6BEFCE6A05361974918053 /* Pods_JYHPageControlSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYHPageControlSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D51B28B56065E22D04D91 /* Pods-JYHPageControlSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControlSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControlSample/Pods-JYHPageControlSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 				3A2E52A521E58EDF00C74E88 /* ViewController.swift */,
 				3A2E52A721E58EDF00C74E88 /* Main.storyboard */,
 				3A2E52AA21E58EE000C74E88 /* Assets.xcassets */,
-				3A2E52AC21E58EE000C74E88 /* LaunchScreen.storyboard */,
 				3A2E52AF21E58EE000C74E88 /* Info.plist */,
+				7EB0D4A421EC654C00E1AA60 /* LaunchScreen.storyboard */,
 			);
 			path = JYHPageControlSample;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2E52AE21E58EE000C74E88 /* LaunchScreen.storyboard in Resources */,
+				7EB0D4A521EC654C00E1AA60 /* LaunchScreen.storyboard in Resources */,
 				3A2E52AB21E58EE000C74E88 /* Assets.xcassets in Resources */,
 				3A2E52A921E58EDF00C74E88 /* Main.storyboard in Resources */,
 			);
@@ -226,14 +226,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3A2E52AC21E58EE000C74E88 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A2E52AD21E58EE000C74E88 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -288,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C6578G8P72;
 				INFOPLIST_FILE = JYHPageControlSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C6578G8P72;
 				INFOPLIST_FILE = JYHPageControlSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
