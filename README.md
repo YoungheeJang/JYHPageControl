@@ -43,17 +43,17 @@ import JYHPageControl
 
 var pageControl: JYHPageControl?
 pageControl = JYHPageControl(currentDotSize: CGSize(width: 20, height: 12),
-currentDotBackgroundColor: UIColor.red,
-currentDotBorderColor: UIColor.lightGray,
-currentDotAlpha: 1.0,
-defaultDotSize: CGSize(width: 6, height: 6),
-defaultDotBackgroundColor: UIColor.white,
-defaultDotBorderColor: UIColor.lightGray,
-defaultDotAlpha: 0.7,
-gab: 6,
-radius: true,
-numberOfPages: 7,
-currentPage: 0)
+                             currentDotBackgroundColor: UIColor.red,
+                             currentDotBorderColor: UIColor.lightGray,
+                             currentDotAlpha: 1.0,
+                             defaultDotSize: CGSize(width: 6, height: 6),
+                             defaultDotBackgroundColor: UIColor.white,
+                             defaultDotBorderColor: UIColor.lightGray,
+                             defaultDotAlpha: 0.7,
+                             gab: 6,
+                             radius: true,
+                             numberOfPages: 7,
+                             currentPage: 0)
 self.view.addSubview(pageControl!)
 ```
 
