@@ -10,6 +10,7 @@
 		3A2E529121E58AB700C74E88 /* JYHPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E528F21E58AB700C74E88 /* JYHPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57EFCD51FFD51E70B546AEAD /* Pods_JYHPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */; };
 		7E10823E21E5D97200273214 /* JYHPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E10823C21E5C4B000273214 /* JYHPageControl.swift */; };
+		7EB0D4A321EC5F0500E1AA60 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7EB0D4A221EC5F0500E1AA60 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		78BFCA18F645B51F89A2BBA2 /* Pods-JYHPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.release.xcconfig"; sourceTree = "<group>"; };
 		7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYHPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E10823C21E5C4B000273214 /* JYHPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYHPageControl.swift; sourceTree = "<group>"; };
+		7EB0D4A221EC5F0500E1AA60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9D9A3C41795DD0ECA5C0F57 /* Pods-JYHPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 		3A2E528221E58AB700C74E88 = {
 			isa = PBXGroup;
 			children = (
+				7EB0D4A221EC5F0500E1AA60 /* README.md */,
 				3A2E528E21E58AB700C74E88 /* JYHPageControl */,
 				3A2E528D21E58AB700C74E88 /* Products */,
 				E6797B2BE09968415BDDB718 /* Pods */,
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB0D4A321EC5F0500E1AA60 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
