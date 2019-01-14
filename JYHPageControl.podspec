@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 
   s.name         = "JYHPageControl"
   s.version      = "1.0.0"
-  s.summary      = "A short description of JYHPageControl."
+  s.summary      = "simple pagecontrol."
 
-  s.description  = "simple pagecontrol."
+  s.description  = "You can easy use pagecontrol."
 
   s.homepage     = "https://github.com/YoungheeJang"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "10.0"
+  s.swift_version = "4.2"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/YoungheeJang/JYHPageControl.git" , :tag => "1.0.0" }
