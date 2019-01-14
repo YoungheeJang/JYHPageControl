@@ -4,7 +4,7 @@ Foobar is a Python library for dealing with word pluralization.
 
 ## Overview
 
-<img src="Images/demo.gif" width="600" height="1067">
+<img src="images/sample-01.gif" width="600" height="1067">
 
 ## Installation
 
