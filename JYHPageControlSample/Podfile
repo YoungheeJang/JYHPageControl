@@ -4,6 +4,6 @@
 target 'JYHPageControlSample' do
   
   use_frameworks!
-  pod 'JYHPageControl', :git => 'https://github.com/YoungheeJang/JYHPageControl.git', :branch => 'develop'
+  pod 'JYHPageControl'
 
 end
