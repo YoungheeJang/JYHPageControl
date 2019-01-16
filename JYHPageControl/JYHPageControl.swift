@@ -21,16 +21,22 @@ open class JYHPageControl: UIView {
     
     fileprivate var gab: CGFloat!
     fileprivate var radius: Bool!
+    fileprivate var animation: Bool!
     
     fileprivate var headerImageView: UIImageView?
     fileprivate var footerImageView: UIImageView?
     
-    fileprivate var numberOfPages: Int!
+    open var numberOfPages: Int! {
+        didSet {
+            self.updateNumberOfPages()
+            self.updateView()
+        }
+    }
     
     open var currentPage: Int! {
         didSet {
             if dotArray.count > 0 {
-                UIView.animate(withDuration: 0.3) {
+                UIView.animate(withDuration: self.animation ? 0.3 : 0.0) {
                     self.updateView()
                 }
             }
@@ -50,9 +56,11 @@ open class JYHPageControl: UIView {
                             
                             gab: CGFloat = 6,
                             radius: Bool = true,
+                            animation: Bool = true,
                             
-                            numberOfPages: Int,
+                            numberOfPages: Int = 3,
                             currentPage: Int = 0) {
+        self.backgroundColor = .clear
         self.init(frame: .zero)
         self.currentDotSize = currentDotSize
         self.currentDotBackgroundColor = currentDotBackgroundColor
@@ -66,6 +74,7 @@ open class JYHPageControl: UIView {
         
         self.gab = gab
         self.radius = radius
+        self.animation = animation
         
         self.numberOfPages = numberOfPages
         self.currentPage = currentPage
