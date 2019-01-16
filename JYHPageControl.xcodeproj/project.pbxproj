@@ -19,7 +19,7 @@
 		3A2E529021E58AB700C74E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BFCA18F645B51F89A2BBA2 /* Pods-JYHPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.release.xcconfig"; sourceTree = "<group>"; };
 		7A1991A78C2D952546544E26 /* Pods_JYHPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYHPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E10823C21E5C4B000273214 /* JYHPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYHPageControl.swift; sourceTree = "<group>"; };
+		7E10823C21E5C4B000273214 /* JYHPageControl.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = JYHPageControl.swift; sourceTree = "<group>"; tabWidth = 4; };
 		7EB0D4A221EC5F0500E1AA60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9D9A3C41795DD0ECA5C0F57 /* Pods-JYHPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYHPageControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYHPageControl/Pods-JYHPageControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
