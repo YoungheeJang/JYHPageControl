@@ -60,8 +60,9 @@ open class JYHPageControl: UIView {
                             
                             numberOfPages: Int = 3,
                             currentPage: Int = 0) {
-        self.backgroundColor = .clear
+      
         self.init(frame: .zero)
+        self.backgroundColor = .clear
         self.currentDotSize = currentDotSize
         self.currentDotBackgroundColor = currentDotBackgroundColor
         self.currentDotBorderColor = currentDotBorderColor
