@@ -1,6 +1,6 @@
 # JYHPageControl
 
-**JYHPageControl** looks like **UIPageControl**. If You will use this **JYHPageControl**, It is very easy to make pageControl.
+**JYHPageControl** looks like **UIPageControl**. If You will use this **JYHPageControl**, It is very easy to make custom pageControl.
 
 ## Overview
 
@@ -30,7 +30,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'JYHPageControl', '~> 1.0.0'
+pod 'JYHPageControl', '~> 1.2.0'
 end
 ```
 
@@ -58,7 +58,8 @@ pageControl = JYHPageControl(currentDotSize: CGSize(width: 20, height: 12),
                              gab: 6,
                              radius: true,
                              numberOfPages: 7,
-                             currentPage: 0)
+                             currentPage: 0,
+                             animation: true)
 self.view.addSubview(pageControl!)
 ```
 
