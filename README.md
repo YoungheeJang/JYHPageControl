@@ -30,7 +30,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'JYHPageControl', '~> 1.2.0'
+pod 'JYHPageControl', '~> 1.3.0'
 end
 ```
 
