@@ -148,7 +148,7 @@ open class JYHPageControl: UIView {
             view.alpha = alpha
             view.backgroundColor = backgroundColor
             view.layer.borderColor = borderColor
-            view.layer.borderWidth = 1
+            view.layer.borderWidth = 1 / UIScreen.main.scale
             if radius { view.layer.cornerRadius = height / 2 }
             
             x = x + gab + width
