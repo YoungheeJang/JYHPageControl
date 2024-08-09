@@ -41,8 +41,8 @@ class ViewController: UIViewController {
                                  defaultDotBackgroundColor: UIColor.white,
                                  defaultDotBorderColor: UIColor.lightGray,
                                  defaultDotAlpha: 0.7,
-                                 gab: 6,
-                                 radius: true,
+                                 gap: 6,
+                                 isRadius: true,
                                  numberOfPages: 7,
                                  currentPage: 0)
     
