@@ -30,7 +30,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'JYHPageControl', '~> 1.3.0'
+pod 'JYHPageControl', '~> 1.4.0'
 end
 ```
 
@@ -55,11 +55,11 @@ pageControl = JYHPageControl(currentDotSize: CGSize(width: 20, height: 12),
                              defaultDotBackgroundColor: UIColor.white,
                              defaultDotBorderColor: UIColor.lightGray,
                              defaultDotAlpha: 0.7,
-                             gab: 6,
-                             radius: true,
+                             gap: 6,
+                             isRadius: true,
+                             shouldAnimate: true,
                              numberOfPages: 7,
-                             currentPage: 0,
-                             animation: true)
+                             currentPage: 0)
 self.view.addSubview(pageControl!)
 ```
 
